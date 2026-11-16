@@ -1,0 +1,23 @@
+<!-- Battery glyph, no plate: the charged section stops against the limit rule.
+     Proportions measured off the approved artwork (measuring stick: 1024 viewBox).
+     One ink throughout — steel #6C7F92 — so the glyph and its limit rule read on a dark backdrop. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="charge" x1="117" y1="512" x2="609" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4BFF45"/>
+      <stop offset="1" stop-color="#00D5CD"/>
+    </linearGradient>
+    <clipPath id="inside">
+      <rect x="117" y="371" width="724" height="282" rx="36"/>
+    </clipPath>
+  </defs>
+
+  <rect x="861" y="439" width="76" height="146" rx="26" fill="#6C7F92"/>
+
+  <g clip-path="url(#inside)">
+    <rect x="117" y="371" width="492" height="282" fill="url(#charge)"/>
+    <rect x="609" y="371" width="32" height="282" fill="#6C7F92"/>
+  </g>
+
+  <rect x="102" y="356" width="754" height="312" rx="51" fill="none" stroke="#6C7F92" stroke-width="30"/>
+</svg>

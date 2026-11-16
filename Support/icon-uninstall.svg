@@ -1,0 +1,12 @@
+<!-- Uninstaller glyph: a waste bin, deliberately not a battery, so the two icons in the DMG cannot be
+     mistaken for each other. Flat, no plate, same steel ink and stroke weight as the app glyph. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <rect x="214" y="252" width="596" height="56" rx="26" fill="#6C7F92"/>
+  <rect x="422" y="178" width="180" height="42" rx="20" fill="#6C7F92"/>
+
+  <path d="M 262 348 L 286 812 Q 288 846 322 846 L 702 846 Q 736 846 738 812 L 762 348"
+        fill="none" stroke="#6C7F92" stroke-width="30" stroke-linejoin="round"/>
+
+  <rect x="404" y="420" width="28" height="330" rx="14" fill="#6C7F92"/>
+  <rect x="592" y="420" width="28" height="330" rx="14" fill="#6C7F92"/>
+</svg>
